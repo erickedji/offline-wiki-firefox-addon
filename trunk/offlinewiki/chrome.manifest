@@ -1,0 +1,9 @@
+content offlinewiki chrome/content/
+
+locale offlinewiki fr chrome/locale/fr/
+
+overlay chrome://browser/content/browser.xul chrome://offlinewiki/content/offlinewiki.xul
+
+resource offlinewiki-modules modules/
+
+skin offlinewiki classic/1.0 chrome/skin/classic/
