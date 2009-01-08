@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE overlay [
+    <!ENTITY % common SYSTEM "chrome://offlinewiki/locale/common.dtd">
+    %common;
+]>
+<!-- Last edit on 03/01/2009 by                     -->
+<!-- KEDJI Komlan Akpédjé <eric.kedji@gmail.com>    -->
+<overlay id="owOverlay" 
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <script type="application/x-javascript"
+            src="chrome://offlineWiki/content/jquery-1.2.6.min.js"/>
+    <script type="application/x-javascript"
+            src="chrome://offlineWiki/content/offlinewiki.js"/>
+
+    <statusbar id="status-bar">
+        <statusbarpanel 
+            id="owStatusBar" 
+            tooltiptext="&ow.statuspanel.tooltip;"
+            mousethrough="never"
+            class="statusbarpanel-menu-iconic"
+            src="chrome://offlinewiki/skin/ow-16x16.png"
+            onclick="offlineWiki.statusBarClicked()" >
+            <!-- label="&ow.statuspanel.label;" -->
+        </statusbarpanel>
+    </statusbar>
+</overlay>
+
